@@ -39,3 +39,7 @@ group :test do
 	gem 'webrat'
 	gem 'spork', '0.9.0rc9'
 end
+
+group :production do
+	gem 'pg'
+end
