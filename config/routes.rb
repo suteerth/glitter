@@ -1,6 +1,4 @@
 Glitter::Application.routes.draw do
-  get "mangos/new"
-
   get "users/new"
 
   match '/contact', :to => 'pages#contact'
