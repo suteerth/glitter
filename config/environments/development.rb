@@ -31,3 +31,8 @@ Glitter::Application.configure do
   # Set the time zone
   config.time_zone = "Kolkata"
 end
+
+silence_warnings do
+  require 'pry'
+  IRB = Pry
+end
